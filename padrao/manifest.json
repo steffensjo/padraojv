@@ -1,0 +1,126 @@
+//SCRIPTS
+var div = document.createElement('div');
+document.body.appendChild(div);
+div.id = 'ui-modal';
+div.style = 'margin-left:11%;display:none;';
+div.innerHTML = '<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><ul class="menuBeTheme"><li class="li1"><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/">Typography</a><ul><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#alert" target="_blank">Alert</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#basic" target="_blank">Basic</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#tooltip" target="_blank">Blockquote</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#buttons" target="_blank">Buttons</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#code" target="_blank">Code</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#columns" target="_blank">Columns</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#contentlink" target="_blank">Content Link</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#divider" target="_blank">Divider</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#dropcap" target="_blank">Dropcap</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#fancylink" target="_blank">Fancy Link</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#googlefont" target="_blank">Google Font</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#dropcap" target="_blank">Highlight</a></li></ul><li class="li2"><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/">Typography 2</a><ul><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#divider" target="_blank">Hr</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#icons" target="_blank">Icons</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#iconbar" target="_blank">Icon Bar</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#iconblock" target="_blank">Icon Block</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#idea" target="_blank">Idea</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#image" target="_blank">Image</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#lists" target="_blank">Lists & Bullets lists</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#popup" target="_blank">Popup</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#iconblock" target="_blank">Progress Icons</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#popup" target="_blank">Share Box</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#table" target="_blank">Table</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#tooltip" target="_blank">Tooltip</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/typography/#tooltip" target="_blank">Tooltip Image</a></li><li><a href="http://themes.muffingroup.com/be/theme/pages/gallery/" target="_blank">Gallery</a></li></ul><li class="li3"><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/">Boxes & Infographics</a><ul><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#articlebox" target="_blank">Article box</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#beforeafter" target="_blank">Before After</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#chart" target="_blank">Chart</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#countdown" target="_blank">Countdown</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#counter" target="_blank">Counter</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#featurebox" target="_blank">Feature Box</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#flatbox" target="_blank">Flat Box</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#hoverbox" target="_blank">Hover Box</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#iconbox" target="_blank">Icon Box</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#photobox" target="_blank">Photo Box</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#progressbar" target="_blank">Progress Bars</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#promobox" target="_blank">Promo Box</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#quickfact" target="_blank">Quick Fact</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#slidingbox" target="_blank">Sliding Box</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#storybox" target="_blank">Story Box</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#trailerbox" target="_blank">Trailer Box</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/boxes-infographics/#zoombox" target="_blank">Zoom Box</a></li></ul><li class="li4"><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-blocks/">Content blocks</a><ul><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-blocks/#accordion" target="_blank">Accordion</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-blocks/#faq" target="_blank">FAQ</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-blocks/#helper" target="_blank">Helper</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-blocks/#list" target="_blank">List</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-blocks/#pricingitem" target="_blank">Pricing Item</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-blocks/#slider" target="_blank">Slider</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-blocks/#tabs" target="_blank">Tabs</a></li></ul><li class="li5"><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/">Content elements</a><ul><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#calltoaction" target="_blank">Call to Action</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#contactbox" target="_blank">Contact Box</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#fancydivider" target="_blank">Fancy Divider</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#fancydivider" target="_blank">Fancy Divider</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#fancyheading" target="_blank">Fancy Heading</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#features-list" target="_blank">Features List</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#hovercolor" target="_blank">Hover Color</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#howitworks" target="_blank">How It Works</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#contactbox" target="_blank">Infobox</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#mapbig" target="_blank">Map</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#contactbox" target="_blank">Opening Hours</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#ourteam" target="_blank">Our Team</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#ourteamlist" target="_blank">Our Team List</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#ourteamlist" target="_blank">Our Team List</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#timeline" target="_blank">Timeline</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/content-elements/#video" target="_blank">Video</a></li></ul><li class="li6"><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/">Loops</a><ul><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/#blog-item" target="_blank">Blog</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/#blognews" target="_blank">Blog News</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/#blogteaser" target="_blank">Blog Teaser</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/#blogslider" target="_blank">Blog Slider</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/#clients" target="_blank">Clients</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/#clientsslider" target="_blank">Clients Slider</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/#offerslider" target="_blank">Offer Slider Full</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/#offersliderthumb" target="_blank">Offer Slider Thumb</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/#portfolio-item" target="_blank">Portfolio</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/#portfoliogrid" target="_blank">Portfolio Grid</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/#blog-item" target="_blank">Portfolio Photo</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/#portfolioslider" target="_blank">Portfolio Slider</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/#testimonials-item" target="_blank">Testimonials</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/#testimonials-item" target="_blank">Blog</a></li><li><a href="http://themes.muffingroup.com/be/theme/shortcodes/loops/#testimonialslist" target="_blank">Testimonials List</a></li></ul><li class="li8"><span>Links úteis</span><ul><li><a href="http://latlong.net" target="_blank">LatLong</a></li><li><a href="https://fontlibrary.org/" target="_blank">FontLibrary</a></li><li><a href="https://fonts.google.com/" target="_blank">GoogleFonts</a></li><li><a href="http://fontawesome.io/icons/#payment" target="_blank">FontAwsome</a></li><li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfSHNV-VlIJNaf9St7lbKG2QgjHlYKHZl6cQjPpjRa5yJGRsA/viewform?pli=1" target="_blank">Check List</a></li><li><a href="http://ianlunn.github.io/Hover/" target="_blank">Hover.css</a></li><li><a href="https://www.joedolson.com/tools/color-contrast-tester.php?lang=pt-pt" target="_blank">Color Contrast</a></li><li><a href="https://www.invertexto.com/qrcode" target="_blank">QR Code</a></li><li><a href="http://themes.muffingroup.com/be/splash/#Filters" target="_blank">Temas</a></li><li><a href="https://weatherwidget.io/" target="_blank">Temperatura Widgets</a></li></ul><li class="li9"><a id="btnpadaro" target="_self" onclick="myFunction()">Padronizar</a></li>';
+
+document.onkeydown=function(e){
+		var e = e || window.event; // for IE to cover IEs window object
+    if(e.altKey && e.which == 65) {
+         document.getElementById("ui-modal").style.display = "block";
+         return false;
+    }
+    if(e.altKey && e.which == 83) {
+         document.getElementById("publish").click();
+         return false;
+    }
+    else if (e.altKey && e.which == 90){
+    	 document.getElementById("ui-modal").style.display = "none";
+    }
+}
+
+
+function myFunction() {
+var name=confirm("Deseja PADRONIZAR o site?")
+if (name==true)
+{
+window.open("admin.php?page=wpcf7-new#padrao");
+document.getElementById("btnpadaro").href = "admin.php?page=be-options#padrao";
+document.getElementById("btnpadaro").onclick = "";
+document.getElementById("btnpadaro").click();
+}
+}
+
+//CSS
+.menuBeTheme{
+list-style:none; 
+border:1px solid #c0c0c0; 
+float:left; 
+}
+.menuBeTheme li{
+position:relative; 
+float:left; 
+border-right:1px solid #c0c0c0; 
+}
+.menuBeTheme li a {color:#333; text-decoration:none; padding:5px 25px; display:block;}
+.menuBeTheme li span {color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.menuBeTheme li a:hover{
+background:#333; 
+color:#fff; 
+-moz-box-shadow:0 3px 10px 0 #CCC; 
+-webkit-box-shadow:0 3px 10px 0 #ccc; 
+text-shadow:0px 0px 5px #fff; 
+}
+.menuBeTheme li  ul{
+position:absolute; 
+top:25px; 
+left:0;
+background-color:#fff; 
+display:none;
+}
+.menuBeTheme li:hover ul, .menuBeTheme li.over ul{display:block;}
+.menuBeTheme li ul li{
+border:1px solid #c0c0c0; 
+display:block; 
+width:112%;
+}
+.menuBeTheme {
+    padding-top: 0;
+}
+.menuBeTheme {
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
+    width: 85%; /* Full width */
+}
+.menuBeTheme li a span{
+    width: 87%;
+    background: #fff;
+}
+ul.menuBeTheme {
+    z-index: 99999;
+    background: #fff;
+}
+.menuBeTheme .li1> ul {
+    margin-top: -328%;
+}
+.menuBeTheme .li2> ul {
+    margin-top: -362%;
+}
+.menuBeTheme .li3> ul {
+    margin-top: -311%;
+}
+.menuBeTheme .li4> ul {
+    margin-top: -172%;
+}
+.menuBeTheme .li5> ul {
+    margin-top: -332%;
+}
+.menuBeTheme .li6> ul {
+    margin-top: -616%;
+    width: 144%;
+}
+.menuBeTheme .li7> ul {
+    margin-top: -67%;
+}
+.menuBeTheme .li8> ul {
+    margin-top: -417%;
+}
+.menuBeTheme li a {
+    background: #fff;
+}
+.menuBeTheme li span {
+    background: #fff;
+}
+li {
+    margin-bottom: 0px !important;
+}
+.menuBeTheme .li9 a {
+    background: red;
+    color: #fff !important;
+}
+.menuBeTheme .li9 a:hover {
+    background: #710000 !important;
+    color: #fff !important;
+}
